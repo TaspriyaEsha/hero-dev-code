@@ -1,0 +1,64 @@
+/* shared style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+}
+.logo h2{
+    font-size: 45px;
+    
+}
+.color-orange{
+    color: #FD6E0A;
+    font-weight: 900;
+}
+.button {
+    border: none;
+    color: white;
+    background-color:#FD6E0A ;
+    padding: 18.28px 35px 19.3px 36px;
+    border-radius: 5px; 
+}
+
+
+
+/* main style */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+     /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    color: #474747;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* tried this by myself */
+/* ul button{
+    background-color: #FD6E0A;
+    color: white;
+    padding: ;
+} */
