@@ -129,12 +129,12 @@ nav .menu a{
     text-align: center;
 
 }
-.info-card p{
+.about-info .info-card p{
     color: #757575;
     font-size: 20px;
 }
-.info-card h4{
-    font-size: 22px;
+.about-info .info-card h4{
+    font-size: 20px;
     color: #474747;
 }
 #about .about-container .about-info{
